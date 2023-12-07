@@ -1,0 +1,39 @@
+# ignore all
+*
+
+# white-list
+
+# directory
+!/**/
+
+# C file
+!*.c
+!*.h
+
+# C++ file
+!*.cc
+!*.cpp
+!*.cxx
+!*.hh
+!*.hpp
+!*.hxx
+
+# python file
+!*.py
+
+# text and docs
+!*.md
+!*.pdf
+
+# image file
+!*.png
+
+# config
+!.gitignore
+!*_snippets.jsonc
+
+# re-ignore
+.vscode
+.cph
+tempCodeRunnerFile.cpp
+tmp
