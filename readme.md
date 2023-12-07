@@ -76,7 +76,7 @@ pyjudge [action] --help # 查看子命令的帮助文档
 
 - `-t/--tle 1.5` 将时限设置为 `1.5s`，默认值为 `1s`。
   - 特别的，测试数据生成代码、SPJ 的默认时限为 `60s`，并与指定的 `tle` 取max。
-- `-d/--dir test` 将测试数据目录设置为 `./test`，默认值为 `./data`。
+- `-d/--dir test` 将测试数据目录设置为 `./test`，默认值为 `./testcases`。
 
 ### judge
 
